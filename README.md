@@ -70,6 +70,8 @@ Versão mobile:
   Desenvolvido por John
 </a>
 
+<br>
+
 <a href="https://jovimoura.vercel.app/" target="_blank" align="left" style="font-style: italic;">
   Portfolio
 </a>
