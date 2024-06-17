@@ -2,6 +2,14 @@ Teste Técnico para Desenvolvedor Full-Stack DFCOM
 
 ## Como rodar
 
+# Importante!
+
+Para rodar o sistema completo você vai precisar executar o [Backend](https://github.com/jovimoura/nestjs-crud) e ter a seguinte .env: 
+
+```
+API_URL="http://localhost:3333"
+```
+
 Primeiro instale as dependencias do projeto:
 
 ```bash
@@ -55,3 +63,13 @@ Clique no icone de lixeira para deletar o produto
 Versão mobile: 
 
 <img src="./public/mobile.png">
+
+---
+
+<a href="https://www.linkedin.com/in/jovimoura10/" target="_blank" align="left" style="font-style: italic;">
+  Desenvolvido por John
+</a>
+
+<a href="https://jovimoura.vercel.app/" target="_blank" align="left" style="font-style: italic;">
+  Portfolio
+</a>
