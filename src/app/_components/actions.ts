@@ -46,7 +46,7 @@ export async function editProduct(input: z.infer<typeof newProductSchema>) {
 
 export async function deleteProduct(input: z.infer<typeof deleteProductSchema>) {
   try {
-    const deleteProduct = await api.post(`/products/${input._id}`)
+    const deleteProduct = await api.delete(`/products/${input._id}`)
     return deleteProduct.data
   } catch (error) {
     return []

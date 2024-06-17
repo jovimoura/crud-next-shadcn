@@ -21,10 +21,10 @@ export function Dashboard({ products, isLoading }: Props) {
 
   const router = useRouter()
 
-  const handleDeleteProduct = async (product: any) => {
-    setCurrentlyDeletingProduct(product.id)
+  const handleDeleteProduct = async (product: Product) => {
+    setCurrentlyDeletingProduct(product._id)
 
-    await deleteProduct({ _id: product.id })
+    await deleteProduct({ _id: product._id })
     setCurrentlyDeletingProduct(null)
 
     router.refresh()
